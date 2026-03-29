@@ -6,12 +6,10 @@
     <title>Smart Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
 <div class="calculator">
     <h2>Smart Calculator</h2>
-
     <input type="text" id="display" disabled>
 
     <div class="buttons">
@@ -33,4 +31,14 @@
         <button onclick="appendValue('1')">1</button>
         <button onclick="appendValue('2')">2</button>
         <button onclick="appendValue('3')">3</button>
-        <button onclick="appendValue('+')">+</button
+        <button onclick="appendValue('+')">+</button>
+
+        <button class="zero" onclick="appendValue('0')">0</button>
+        <button onclick="appendValue('.')">.</button>
+        <button onclick="calculate()">=</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
